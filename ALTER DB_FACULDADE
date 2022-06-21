@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ALTER TABLE departamento
 	CHANGE nome_departamento nome_departamento CHAR(20) NOT NULL;	
 
@@ -37,3 +38,6 @@ ALTER TABLE histórico
     
    ALTER TABLE disciplina
    CHANGE nome_disciplina nome_disciplina CHAR (30);
+=======
+
+>>>>>>> 6829c4900517237e272e0e7876c55f90ebced09d

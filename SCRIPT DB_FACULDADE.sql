@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CREATE DATABASE IF NOT EXISTS db_faculdade
 DEFAULT CHARACTER SET utf8mb3
 DEFAULT COLLATE utf8_general_ci;
@@ -123,3 +124,6 @@ CREATE TABLE IF NOT EXISTS aluno_disciplina(
     PRIMARY KEY (fk_RA,fk_cod_disciplina),
 	FOREIGN KEY(fk_RA) REFERENCES aluno (RA),
     FOREIGN KEY (fk_cod_disciplina) REFERENCES disciplina (cod_disciplina));
+=======
+
+>>>>>>> 6829c4900517237e272e0e7876c55f90ebced09d
